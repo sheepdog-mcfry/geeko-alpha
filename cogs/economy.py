@@ -13,9 +13,9 @@ import time
 import logging
 import random
 
-default_settings = {"PAYDAY_TIME": 300, "PAYDAY_CREDITS": 120,
-                    "SLOT_MIN": 5, "SLOT_MAX": 100, "SLOT_TIME": 0,
-                    "REGISTER_CREDITS": 0}
+default_settings = {"PAYDAY_TIME": 150, "PAYDAY_CREDITS": 120,
+                    "SLOT_MIN": 5, "SLOT_MAX": 1000, "SLOT_TIME": 0,
+                    "REGISTER_CREDITS": 500}
 
 
 class EconomyError(Exception):
@@ -562,6 +562,38 @@ class Economy:
                                "".format(settings["SLOT_MIN"],
                                          settings["SLOT_MAX"]))
 
+    @commands.command(pass_context=True, no_pm=True)
+    async def slotall(self, ctx):
+        """Play the slot machine all in"""
+        author = ctx.message.author
+        server = author.server
+        settings = self.settings[server.id]
+        slot_time = settings["SLOT_TIME"]
+        bid = self.bank.get_balance(author)
+        last_slot = self.slot_register.get(author.id)
+        now = datetime.utcnow()
+        try:
+            if last_slot:
+                if (now - last_slot).seconds < slot_time:
+                    raise OnCooldown()
+            if not self.bank.can_spend(author, 1):
+                raise InsufficientBalance
+            await self.slot_machine(author, bid)
+        except NoAccount:
+            await self.bot.say("{} You need an account to use the slot "
+                               "machine. Type `{}bank register` to open one."
+                               "".format(author.mention, ctx.prefix))
+        except InsufficientBalance:
+            await self.bot.say("{} You need an account with enough funds to "
+                               "play the slot machine.".format(author.mention))
+        except OnCooldown:
+            await self.bot.say("Slot machine is still cooling off! Wait {} "
+                               "seconds between each pull".format(slot_time))
+        except InvalidBid:
+            await self.bot.say("Bid must be between {} and {}."
+                               "".format(settings["SLOT_MIN"],
+                                         settings["SLOT_MAX"]))
+										 
     async def slot_machine(self, author, bid):
         default_reel = deque(SMReel)
         reels = []
