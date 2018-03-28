@@ -1,0 +1,256 @@
+{
+    "26-cogs" : {
+        "cleverbot" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\cleverbot\\cleverbot.py",
+            "folder" : "data\\downloader\\26-cogs\\cleverbot"
+        },
+        "insult" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\insult\\insult.py",
+            "folder" : "data\\downloader\\26-cogs\\insult"
+        },
+        "nomassmentions" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\nomassmentions\\nomassmentions.py",
+            "folder" : "data\\downloader\\26-cogs\\nomassmentions"
+        },
+        "penis" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\penis\\penis.py",
+            "folder" : "data\\downloader\\26-cogs\\penis"
+        },
+        "remindme" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\26-cogs\\remindme\\remindme.py",
+            "folder" : "data\\downloader\\26-cogs\\remindme"
+        },
+        "rift" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\rift\\rift.py",
+            "folder" : "data\\downloader\\26-cogs\\rift"
+        },
+        "rndstatus" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\rndstatus\\rndstatus.py",
+            "folder" : "data\\downloader\\26-cogs\\rndstatus"
+        },
+        "stickyroles" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\stickyroles\\stickyroles.py",
+            "folder" : "data\\downloader\\26-cogs\\stickyroles"
+        },
+        "trigger" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\26-cogs\\trigger\\trigger.py",
+            "folder" : "data\\downloader\\26-cogs\\trigger"
+        },
+        "url" : "https://github.com/Twentysix26/26-Cogs"
+    },
+    "Squid-Plugins" : {
+        "admin" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\admin\\admin.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\admin"
+        },
+        "ascii" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\ascii\\ascii.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\ascii"
+        },
+        "autoapprove" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\autoapprove\\autoapprove.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\autoapprove"
+        },
+        "botinfo" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\botinfo\\botinfo.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\botinfo"
+        },
+        "channellogger" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\channellogger\\channellogger.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\channellogger"
+        },
+        "emotes" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\emotes\\emotes.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\emotes"
+        },
+        "encoder" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\encoder\\encoder.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\encoder"
+        },
+        "example518" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\example518\\example518.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\example518"
+        },
+        "hublinker" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\hublinker\\hublinker.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\hublinker"
+        },
+        "karma" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\karma\\karma.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\karma"
+        },
+        "lastfm" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\lastfm\\lastfm.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\lastfm"
+        },
+        "logger" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\logger\\logger.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\logger"
+        },
+        "mentiontracker" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\mentiontracker\\mentiontracker.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\mentiontracker"
+        },
+        "nickometer" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\nickometer\\nickometer.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\nickometer"
+        },
+        "permissions" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Squid-Plugins\\permissions\\permissions.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\permissions"
+        },
+        "quotes" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\quotes\\quotes.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\quotes"
+        },
+        "rss" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\rss\\rss.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\rss"
+        },
+        "rules" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\rules\\rules.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\rules"
+        },
+        "runescape" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\runescape\\runescape.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\runescape"
+        },
+        "scheduler" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\scheduler\\scheduler.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\scheduler"
+        },
+        "selfbotstatus" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\selfbotstatus\\selfbotstatus.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\selfbotstatus"
+        },
+        "sentryio" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\sentryio\\sentryio.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\sentryio"
+        },
+        "tickets" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\tickets\\tickets.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\tickets"
+        },
+        "url" : "https://github.com/tekulvw/Squid-Plugins",
+        "wikia" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Squid-Plugins\\wikia\\wikia.py",
+            "folder" : "data\\downloader\\Squid-Plugins\\wikia"
+        }
+    },
+    "tmerc-cogs" : {
+        "catfact" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\tmerc-cogs\\catfact\\catfact.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\catfact"
+        },
+        "customjoinleave" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\customjoinleave\\customjoinleave.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\customjoinleave"
+        },
+        "kz" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\kz\\kz.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\kz"
+        },
+        "lenny" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\lenny\\lenny.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\lenny"
+        },
+        "massdm" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\massdm\\massdm.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\massdm"
+        },
+        "membership" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\membership\\membership.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\membership"
+        },
+        "playsound" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\playsound\\playsound.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\playsound"
+        },
+        "quotes" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\quotes\\quotes.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\quotes"
+        },
+        "rainbow6siege" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\rainbow6siege\\rainbow6siege.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\rainbow6siege"
+        },
+        "randgame" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\randgame\\randgame.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\randgame"
+        },
+        "randimage" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\randimage\\randimage.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\randimage"
+        },
+        "randimals" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\randimals\\randimals.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\randimals"
+        },
+        "retakechannels" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\retakechannels\\retakechannels.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\retakechannels"
+        },
+        "reviewemoji" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\reviewemoji\\reviewemoji.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\reviewemoji"
+        },
+        "streamrole" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\streamrole\\streamrole.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\streamrole"
+        },
+        "survey" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\tmerc-cogs\\survey\\survey.py",
+            "folder" : "data\\downloader\\tmerc-cogs\\survey"
+        },
+        "url" : "https://github.com/tmercswims/tmerc-cogs"
+    }
+}

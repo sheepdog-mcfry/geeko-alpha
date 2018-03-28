@@ -1,0 +1,19 @@
+{
+    "424340483695837184" : {
+        "ADMIN_ROLE" : "Geekologists",
+        "MOD_ROLE" : "Moderators",
+        "PREFIXES" : []
+    },
+    "EMAIL" : null,
+    "OWNER" : "126676932283596800",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "!"
+    ],
+    "TOKEN" : "NDI0Njg0NjI2NDQ4MjIwMTYw.DY8d6g.HzkgVgCJi-eWzIAWmyHLOQeqtkY",
+    "default" : {
+        "ADMIN_ROLE" : "Geekologists",
+        "MOD_ROLE" : "Moderators",
+        "PREFIXES" : []
+    }
+}
